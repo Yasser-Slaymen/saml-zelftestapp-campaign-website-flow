@@ -1,0 +1,23 @@
+/*variables*/
+:root {
+    --dark-blue: #0e49a2;
+    --dark-lighter-blue: #0b53c8;
+    --lighter-blue: #0b61ee;
+    --light-blue: #1e64e7;
+    --secondary: #eff3fa;
+    --white: #fff;
+    --black: #000;
+    --text-color: #2e3a59;
+    --border: #a5c5fe;
+    --cta-color: #d2e2ff;
+  }
+
+  body {
+    font-family: "SF-Pro-Display", sans-serif;
+    font-weight: regular;
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+  
+  }
+  
