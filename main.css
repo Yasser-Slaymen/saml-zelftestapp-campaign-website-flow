@@ -44,8 +44,9 @@ body {
     font-family: "SF-Pro-Display", sans-serif;
     font-weight: regular;
     padding: 0;
-    margin: 0;
+    margin:5px;
     color: var(--text-color);
+    width: 414px;
   }
   .logo{
     height: 3em;
@@ -55,7 +56,7 @@ body {
   }
   .mobile-nav-toggle{
     position: absolute;
-    margin-left: 94vw;
+    margin-left: 90vw;
     margin-top: 1em;
     }
 
@@ -72,17 +73,38 @@ body {
     font-size: 1em;
   }
   .nav-baar{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--border);
+    background-color:var(--secondary);
     width:10em ;
-    
-  }
-  
-  .nav-baar>il{
+    height: 35vh;
+    margin-left: 82vw;
+    margin-top:0em ;
+    font-weight: bold;
+    opacity: 0;
+    transition: 1s ease-out;
 
   }
+  nav>ul.show{
+    opacity: 1;
+  }
+  
+  .nav-baar>li{
+    margin:10px;
+    color: var(--black);
+    transition: .5s ease;
+  }
+  .nav-baar>li:hover{
+    transform:translateY(-10px)scale(1.1);
+    color:rgb(161, 158, 158);
+    cursor: pointer;
+  }
+  .nav-baar>li:active{
+    color: red;
+  }
+
   
   
   .pages{
@@ -97,7 +119,7 @@ body {
     overflow:scroll;
 
   }
-  .pages>ul>il{
+  .pages>ul>li{
     
     width: 10em; 
     height: 3em;
