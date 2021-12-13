@@ -66,11 +66,22 @@ body {
     margin-right:.3em;
   }
   a{
-    font-size:1em;
-    
+    font-size:1.3em;
   }
   p{
     font-size: 1em;
+  }
+  .nav-baar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--border);
+    width:10em ;
+    
+  }
+  
+  .nav-baar>il{
+
   }
   
   
@@ -86,7 +97,7 @@ body {
     overflow:scroll;
 
   }
-  .pages>ul>li{
+  .pages>ul>il{
     
     width: 10em; 
     height: 3em;
