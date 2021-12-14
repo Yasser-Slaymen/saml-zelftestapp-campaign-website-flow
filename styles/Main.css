@@ -42,7 +42,8 @@
 
 body {
     font-family: "SF-Pro-Display", sans-serif;
-    font-weight: regular;
+    font-weight:bold;
+    width: 100vw;
     padding: 0;
     margin:5px;
     color: var(--text-color);
@@ -113,12 +114,6 @@ body {
     color: red;
   }
   /* main */
-  main{
-    width: 100vw;
-    margin-top:0;
-    background-color:var(--secondary);
-    z-index:-10 ;
-  }
   h1{
     margin: 0;
     text-align: center;
@@ -126,19 +121,29 @@ body {
   h1>span{
     color: var(--light-blue);
   }
+  main{
+    width: 100vw;
+    margin-top:0;
+    z-index:-10 ;
+  }
+  
+  main>section{
+    background-color:var(--secondary);
+  }
 
   .text>p{
     padding: 1.3em;
     text-align: center;
     font-weight: bold;
   }
-  
+  /* button */
   .bekijkapp{
     background-color:var(--light-blue);
     color: white;
     padding: .5em .5em;
     border-radius:1em ;
-    margin-left: 45vw;
+    margin-left: 37vw;
+    margin-top:1em ;
     text-decoration: none;
     text-align: center;
     transition: .5s ease;
@@ -149,11 +154,18 @@ body {
     background: var(--dark-blue);
     cursor: pointer;
   }
+/* scrol menu */
 
+.pages{
+  background:var(--cta-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  
-  
-  .pages{
+}
+
+  /*.pages{
     width: 20em;
     height: 18em;
     border: .1em solid var(--black);
@@ -164,25 +176,29 @@ body {
     justify-content:flex-start;
     align-items: center;
     overflow:scroll;
-
-  }
+  }*/
   .pages>ul>li{
-    
+    background-color:var(--light-blue);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 10em; 
     height: 3em;
-    border: .1em solid var(--black);
     margin: 2em;
-    background-color: var(--cta-color);
+    border: .1em solid var(--black);
+    border-radius: .5em;
+    box-shadow:2px 4px 5px var(--black) ;
+    transform:translateX(200%);
+    transition: transform .5s ease;
+  }
+
+  .pages>ul>li.scroll{
+    transform: translateX(0);
+
+  }
+
   
-    
-    
-    
-
-  }
-
-  footer{
-  }
-
   
 
 
