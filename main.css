@@ -46,18 +46,18 @@ body {
     padding: 0;
     margin:5px;
     color: var(--text-color);
-    width: 414px;
   }
+  /* header */
   .logo{
-    height: 3em;
-    width:3em ;
+    height: 3.5em;
+    width:3.5em ;
     z-index:9999 ;
 
   }
   .mobile-nav-toggle{
     position: absolute;
-    margin-left: 90vw;
-    margin-top: 1em;
+    margin-left: 78vw;
+    margin-top: 2em;
     }
 
   ul{
@@ -70,8 +70,16 @@ body {
     font-size:1.3em;
   }
   p{
-    font-size: 1em;
+    font-size: 1,3em;
+    margin: 0;
   }
+  header{
+    width:100vw ;
+    height: 4em;
+    margin-top: 0;
+    background-color: var(--dark-blue);
+  }
+
   .nav-baar{
     position: relative;
     display: flex;
@@ -80,7 +88,7 @@ body {
     background-color:var(--secondary);
     width:10em ;
     height: 35vh;
-    margin-left: 82vw;
+    margin-left: 60vw;
     margin-top:0em ;
     font-weight: bold;
     opacity: 0;
@@ -104,6 +112,44 @@ body {
   .nav-baar>li:active{
     color: red;
   }
+  /* main */
+  main{
+    width: 100vw;
+    margin-top:0;
+    background-color:var(--secondary);
+    z-index:-10 ;
+  }
+  h1{
+    margin: 0;
+    text-align: center;
+  }
+  h1>span{
+    color: var(--light-blue);
+  }
+
+  .text>p{
+    padding: 1.3em;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .bekijkapp{
+    background-color:var(--light-blue);
+    color: white;
+    padding: .5em .5em;
+    border-radius:1em ;
+    margin-left: 45vw;
+    text-decoration: none;
+    text-align: center;
+    transition: .5s ease;
+  }
+
+  .bekijkapp:hover{
+    transform:translateY(10px)scale(1.1);
+    background: var(--dark-blue);
+    cursor: pointer;
+  }
+
 
   
   
@@ -112,6 +158,7 @@ body {
     height: 18em;
     border: .1em solid var(--black);
     margin: auto;
+    margin-top: 10em;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -131,6 +178,9 @@ body {
     
     
 
+  }
+
+  footer{
   }
 
   
