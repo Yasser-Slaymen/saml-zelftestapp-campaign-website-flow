@@ -64,8 +64,9 @@ body {
   ul{
     list-style: none;
   }
-  i{
+  .mobile-nav-toggle>i{
     margin-right:.3em;
+    color: black;
   }
   a{
     font-size:1.3em;
