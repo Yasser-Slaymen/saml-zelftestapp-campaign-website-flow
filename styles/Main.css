@@ -36,15 +36,9 @@
   }
   *{
     box-sizing: border-box;
-    
     margin: 0;
     padding:0 ;
-
-     }
-    body{
-       margin: 0;
-       padding: 0;
-     }
+  }
   
 
 body {
@@ -54,6 +48,8 @@ body {
     padding: 0;
     margin:5px;
     color: var(--text-color);
+    margin: 0;
+    padding: 0;
   }
   /* header */
   .logo{
@@ -66,6 +62,17 @@ body {
     position: absolute;
     margin-left: 78vw;
     margin-top: 2em;
+    }
+    h3{
+      position: fixed;
+      font-family: "SF-Pro-Display";
+      font-weight: bold;
+      letter-spacing: .1em;
+      margin-left:31vw;
+      margin-top:1em ;
+      padding: 0;
+      text-align: center;
+      color: white;
     }
 
   ul{
@@ -90,7 +97,7 @@ body {
   }
 
   .nav-baar{
-    position: relative;
+    position:fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -102,6 +109,7 @@ body {
     font-weight: bold;
     opacity: 0;
     transition: 1s ease-out;
+    
 
   }
   nav>ul.show{
@@ -132,8 +140,8 @@ body {
   main{
     width: 100vw;
     margin-top:0;
-    padding: 4em;
-    z-index:-10 ;
+    padding-top: 4em;
+    
   }
   
   main>section{
@@ -164,20 +172,29 @@ body {
     cursor: pointer;
   }
 /* scrol menu */
-
+ 
+.pages h2{
+  margin-top: 1em;
+}
 .pages{
+  position: relative;
   background:var(--cta-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
+  z-index: -1;
 
 }
 
 .box{
+  
     background-color:var(--light-blue);
-    color: var(--white);
+    color:var(--white);
+    font-weight: bold;
+    font-size:1.3em;
+    letter-spacing: .2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,6 +206,7 @@ body {
     box-shadow:2px 4px 5px var(--black) ;
     transform:translateX(500%);
     transition: transform .5s ease;
+   
   }
 
  .box:nth-of-type(even){
@@ -199,6 +217,11 @@ body {
     transform: translateX(0);
 
   }
+  .box i{
+    color:var(--black);
+    
+  }
+  
   /* footer */
   footer h2{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
@@ -206,7 +229,7 @@ body {
     font-weight: bold;
     font-size: 3em;
     letter-spacing:.2em ;
-    margin: 0;
+    margin:0;
     padding: 0;
     color:var(--black);
   }
@@ -232,10 +255,19 @@ body {
     border-radius: 50%;
     margin: .3em;
     background-color:var(--white);
+    transition: .2s ease-in;
   }
-  footer ul>li>a>i{
-   
+
+  footer ul>li:hover{
+    transform:translateY(10px) scale(1.1);
+    background:var(--light-blue);
   }
+
+  footer ul>li>a>i:hover{
+    color: var(--white);
+    background-color: var(--dark-lighter-blue);
+  }
+
 .logo-un{
   width: 10em;
   height: 8em;
@@ -243,6 +275,11 @@ body {
   border-radius: 50%;
 }
 .copyright{
+  font-size: 1.3em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
 
 }
 
