@@ -61,7 +61,7 @@ body {
   .mobile-nav-toggle{
     position: absolute;
     margin-left: 75vw;
-    margin-top: 2em;
+    margin-top: 1.5em;
     }
     h3{
       position: fixed;
@@ -300,12 +300,17 @@ body {
 }
 /* Ipad */
 @media (min-width:40em){
+
   h3{
     margin-left: 40vw;
   }
   .mobile-nav-toggle{
-    margin-left: 84vw;
+    margin-left: 87vw;
+    margin-top: 1em;
 
+  }
+  .nav-baar{
+    margin-left: 78.5vw;
   }
 
   
@@ -336,7 +341,7 @@ body {
       flex-direction: row;
       justify-content: space-between;
       background: none;
-      margin-left: 84vw;
+      margin-left: 79vw;
       margin-top:-4em;
       padding: 0;
       width: 0;
