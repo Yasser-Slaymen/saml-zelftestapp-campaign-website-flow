@@ -314,24 +314,38 @@ body {
     font-size: 1.5em;
     margin-left: 34vw;
   }
- 
-
-  
-  
-
-
-
-
-
-
-
-
-
-
 
 }
-  
-  
+  /* pc */
+ @media (min-width: 65em) {
+    h3{
+      margin-left: 45vw;
+      font-size: 1.5em;
+    }
+    .mobile-nav-toggle{
+      display: none;
+    }
+    .nav-baar{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: none;
+      margin-left: 84vw;
+      margin-top:-4em;
+      padding: 0;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    .nav-baar>li{
+      color: var(--white);
+    }
+    .nav-baar>li>a>i{
+      color: var(--white);
+
+    }
+    
+ }
 
 
 
