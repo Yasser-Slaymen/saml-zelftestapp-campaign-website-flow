@@ -369,9 +369,9 @@ body {
       display: block;
       width:90vw;
       height: 300px;
-      margin: 2em;
+      margin: 1em;
       object-fit: cover;
-      object-position: 0 -700px ;
+      object-position: 0 -465px;
       border-radius: 1em;
     }
     
