@@ -142,6 +142,12 @@ body {
     background-color:var(--secondary);
     padding:.5em;
   }
+  .pc{
+    display: none;
+  }
+  .ipad{
+    display: none;
+  }
   main{
     width: 100vw;
     margin-top:0;
@@ -353,6 +359,15 @@ body {
     }
     .ipad{
       display: none;
+    }
+    .pc{
+      display: block;
+      width:90vw;
+      height: 300px;
+      margin: 2em;
+      object-fit: cover;
+      object-position: 0 -700px ;
+      border-radius: 1em;
     }
     
  }
