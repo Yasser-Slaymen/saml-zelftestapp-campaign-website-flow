@@ -85,7 +85,7 @@ body {
     font-size:1.3em;
   }
   p{
-    font-size: 1,3em;
+    font-size: 1.3em;
     margin: 0;
   }
   header{
@@ -136,6 +136,11 @@ body {
   }
   h1>span{
     color: var(--light-blue);
+    
+  }
+  h1{
+    background-color:var(--secondary);
+    padding:.5em;
   }
   main{
     width: 100vw;
@@ -148,9 +153,14 @@ body {
     background-color:var(--secondary);
   }
 
+  .ipad{
+    display: none;
+
+  }
+
   .text>p{
     padding: 1.3em;
-    text-align: center;
+    outline-style: none;
     font-weight: bold;
   }
   /* button */
@@ -284,7 +294,29 @@ body {
 }
 /* Ipad */
 @media (min-width:40em){
+  h3{
+    margin-left: 40vw;
+  }
+  .mobile-nav-toggle{
+    margin-left: 84vw;
+
+  }
+
+  
+  .ipad{
+    display: block;
+    width: 700px;
+    height: 200px;
+  }
+  .bekijkapp{
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    margin-left: 34vw;
+  }
  
+
+  
   
 
 
