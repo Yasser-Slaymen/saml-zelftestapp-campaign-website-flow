@@ -344,6 +344,16 @@ body {
       color: var(--white);
 
     }
+    .bekijkapp{
+      margin-left: 44vw;
+    }
+    h3{
+      margin-left: 44vw;
+      margin-top: .7em;
+    }
+    .ipad{
+      display: none;
+    }
     
  }
 
