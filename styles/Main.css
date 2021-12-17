@@ -318,6 +318,7 @@ body {
     display: block;
     width: 700px;
     height: 200px;
+    border-radius: 1e;
   }
   .bekijkapp{
     padding: 1em 2em;
@@ -331,8 +332,10 @@ body {
  @media (min-width: 65em) {
     h3{
       margin-left: 45vw;
+      margin-top: .7em;
       font-size: 1.5em;
     }
+
     .mobile-nav-toggle{
       display: none;
     }
@@ -358,10 +361,7 @@ body {
     .bekijkapp{
       margin-left: 44vw;
     }
-    h3{
-      margin-left: 44vw;
-      margin-top: .7em;
-    }
+    
     .ipad{
       display: none;
     }
