@@ -23,7 +23,7 @@
   }
 /*variables*/
 :root {
-    --dark-blue: #0e49a2;
+   --dark-blue: #0e49a2;
    --dark-lighter-blue: #0b53c8;
    --lighter-blue: #0b61ee;
    --light-blue: #1e64e7;
@@ -33,6 +33,7 @@
    --text-color: #2e3a59;
    --border: #a5c5fe;
    --cta-color: #d2e2ff;
+   --hielight:#fa3a3a;
  }
  *{
    box-sizing: border-box;
@@ -50,6 +51,7 @@ body {
    color: var(--text-color);
    margin: 0;
    padding: 0;
+  overflow-x: hidden;
  }
  /* header */
  .logo{
@@ -129,6 +131,10 @@ body {
  .nav-baar>li:active{
    color: red;
 }
+.nav-baar>li:nth-child(4){
+  color: var(--hielight);
+}
+
 /* main */
 main{
     font-family:"SF-Pro-Display";
