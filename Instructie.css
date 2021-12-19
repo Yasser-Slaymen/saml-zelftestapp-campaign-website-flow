@@ -33,6 +33,7 @@
    --text-color: #2e3a59;
    --border: #a5c5fe;
    --cta-color: #d2e2ff;
+   --hielight:red;
  }
  *{
    box-sizing: border-box;
@@ -128,6 +129,9 @@ body {
  }
  .nav-baar>li:active{
    color: red;
+}
+.nav-baar>li:nth-child(2){
+  color: var(--hielight);
 }
 /* main */
 
