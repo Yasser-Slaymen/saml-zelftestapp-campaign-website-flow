@@ -19,15 +19,58 @@
          <nav>
              <ul class="nav-baar">
                  <li><a href="http://127.0.0.1:5501/index.html" target="_blank"><i class="fas fa-home"></i></a>Home</li>
-                 <li><a href="http://127.0.0.1:5501/instructie.html" target="_blank"><i class="fas fa-search"></i></a>Instructie</li>
-                 <li><a href="http://127.0.0.1:5501/contact.html" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>Contact</li>
-                 <li><a href="http://127.0.0.1:5501/overons.html" target="_blank"><i class="fa fa-fw fa-user"></i></a>over'ons</li>
+                 <li><a href="http://127.0.0.1:5501/instructie.html" target="_blank"><i class="fas fa-laptop"></i></a>Instructie</li>
+                 <li><a href="http://127.0.0.1:5501/contact.html" target="_blank"><i class="far fa-address-book"></i></a>Contact</li>
+                 <li><a href="http://127.0.0.1:5501/overons.html" target="_blank"><i class="far fa-address-card"></i></a>over'ons</li>
+                 <li><a href="http://127.0.0.1:5501/privcy.html" target="_blank"><i class="fas fa-lock-open"></i></a>Privacy</li>
              </ul>
          </nav>
  </header>
- <main>
+ <form action="" method="post">
+     <fieldset class="gegevens">
+         <legend>Gegevens</legend>
+         <label for="name">Naam:</label>
+         <input type="text" name="name" id="name"  placeholder="Vul uw naam in " required  size="30" ><br/>
+         <label for="email">E-mailadres:</label>
+         <input type="email" name="email" id="email" placeholder="Vul uw E-mail in" required size="30">
+         
+     </fieldset>
+     <fieldset class="details">
+         <legend>Details</legend>
+         <label for="symptomen">Wat zijn uw Klachten?</label>
+         <select name="referren" id="symptomen">
+            <option value="cold complai">Hoesten</option>
+            <option value="cough">Verkoudheidsklachten (zoals neusverkoudheid, loopneus, niezen, keelpijn)</option>
+            <option value="breath">Benauwheid</option>
+            <option value="fever">Verhoeging of koorts</option>
+            <option value="sudden loss">Plotseling verlis van reuk en /of smaak (zonder neusverstopping</option>   
+         </select>
+
+        <P> Heeft u eerder Corona gehad?<br/>
+            <label for="ja">Ja</label>
+            <input type="radio" name="ja" id="ja" value="ja">
+            <label for="nee">Nee</label>
+            <input type="radio" name="nee" id="nee" value="nee">
+            <label for="Misschen">Misschien</label>
+            <input type="radio" name="Misschien" id="Misschien" value="Misschien">
+        </P>
+
+
+         <label for="comments">Heeft u andere klachten?</label><br/>
+         <textarea name="comments" id="comments" cols="50" rows="10">
+         </textarea>
+         <br/>
+         <input type="checkbox" name="subscribe" id="subscribe" checked="checked">
+         <label for="subscribe"> Ik wil via E-mail op de hoogte gehouden worden</label>
+         <br/>
+         <input type="sumit" value="Verzenden">
+         
+
+         
+     </fieldset>
+
     
- </main>
+ </form>
  <footer>
     <h2>Volg ons</h2>
     <ul>
