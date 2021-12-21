@@ -23,7 +23,7 @@
   }
 /*variables*/
 :root {
-    --dark-blue: #0e49a2;
+   --dark-blue: #0e49a2;
    --dark-lighter-blue: #0b53c8;
    --lighter-blue: #0b61ee;
    --light-blue: #1e64e7;
@@ -50,6 +50,7 @@ body {
    color: var(--text-color);
    margin: 0;
    padding: 0;
+   overflow-x: hidden;
  }
  /* header */
  .logo{
@@ -186,6 +187,12 @@ legend{
 #symptomen, option{
   width:20vw;
 }
+
+section p{
+margin-left: 1.7em;
+margin-bottom: 1em;
+}
+
 .submit{
   display: flex;
   flex-direction: column;
@@ -206,7 +213,6 @@ textarea{
   width: 90vw;
 
 }
-
 
  /* footer */
  footer h2{
@@ -311,6 +317,10 @@ textarea{
     .nav-baar>li>a>i{
       color: var(--white);
 
+    }
+    textarea{
+      margin:0 1.8em;
+      width: 50vw;
     }
    
 }
