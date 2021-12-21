@@ -129,6 +129,9 @@ body {
  .nav-baar>li:active{
    color: red;
 }
+.nav-baar>li:nth-child(5){
+  color:red;
+}
 /* main */
 
  /* footer */
@@ -221,7 +224,7 @@ body {
       flex-direction: row;
       justify-content: space-between;
       background: none;
-      margin-left: 79vw;
+      margin-left: 70vw;
       margin-top:-4em;
       padding: 0;
       width: 0;

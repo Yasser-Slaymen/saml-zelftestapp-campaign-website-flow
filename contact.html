@@ -39,36 +39,56 @@
      </fieldset>
      <fieldset class="details">
          <legend>Details</legend>
-         <label for="symptomen">Wat zijn uw Klachten?</label>
-         <select name="referren" id="symptomen">
-            <option value="cold complai">Hoesten</option>
-            <option value="cough">Verkoudheidsklachten (zoals neusverkoudheid, loopneus, niezen, keelpijn)</option>
-            <option value="breath">Benauwheid</option>
-            <option value="fever">Verhoeging of koorts</option>
-            <option value="sudden loss">Plotseling verlis van reuk en /of smaak (zonder neusverstopping</option>   
-         </select>
+         <section>
 
-        <P> Heeft u eerder Corona gehad?<br/>
-            <label for="ja">Ja</label>
-            <input type="radio" name="ja" id="ja" value="ja">
-            <label for="nee">Nee</label>
-            <input type="radio" name="nee" id="nee" value="nee">
-            <label for="Misschen">Misschien</label>
-            <input type="radio" name="Misschien" id="Misschien" value="Misschien">
-        </P>
+             <label for="symptomen">Wat zijn uw Klachten?</label>
+            <select name="referren" id="symptomen">
+                <option value="cold complai">Hoesten</option>
+                <option value="cough">Verkoudheidsklachten (zoals neusverkoudheid, loopneus, niezen, keelpijn)</option>
+                <option value="breath">Benauwheid</option>
+                <option value="fever">Verhoeging of koorts</option>
+                <option value="sudden loss">Plotseling verlis van reuk en /of smaak (zonder neusverstopping</option>   
+            </select>
 
+        </section>
 
-         <label for="comments">Heeft u andere klachten?</label><br/>
-         <textarea name="comments" id="comments" cols="50" rows="10">
-         </textarea>
-         <br/>
-         <input type="checkbox" name="subscribe" id="subscribe" checked="checked">
-         <label for="subscribe"> Ik wil via E-mail op de hoogte gehouden worden</label>
-         <br/>
-         <input type="sumit" value="Verzenden">
-        <br/>
-        <label for="date">Klacht datum</label>
-        <input type="date" name="date" id="date">
+        <section>
+            <div>
+                <P> Heeft u eerder Corona gehad? </P>
+                <label for="ja">Ja</label>
+                <input type="radio" name="ja" id="ja" value="ja">
+                <label for="nee">Nee</label>
+                <input type="radio" name="nee" id="nee" value="nee">
+                <label for="Misschen">Misschien</label>
+                <input type="radio" name="Misschien" id="Misschien" value="Misschien">
+            </div>
+           
+        </section>
+
+        <section>
+
+                <label for="comments" >Heeft u andere klachten?</label>
+                <br/>
+                <textarea name="comments" id="comments" cols="50" rows="10"> </textarea>
+
+        </section>
+
+         <section>
+        
+                <label for="date">Klacht datum</label>
+                <input type="date" name="date" id="date">
+
+        </section>
+        <section>
+
+            <label for="subscribe"> Ik wil via E-mail op de hoogte gehouden worden</label>
+            <input type="checkbox" name="subscribe" id="subscribe" checked="checked">
+            
+        </section>
+
+        <section class="submit">
+                <input type="submit"  value="Verzenden">
+        </section>
          
 
          
@@ -76,6 +96,7 @@
 
     
  </form>
+ <!-- footer -->
  <footer>
     <h2>Volg ons</h2>
     <ul>
