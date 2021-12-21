@@ -85,7 +85,7 @@ body {
    font-size:1.3em;
  }
  p{
-   font-size: 1.3em;
+   font-size: 1em;
    margin: 0;
  }
  header{
@@ -131,8 +131,26 @@ body {
 }
 /* form */
 form{
-  padding-top: 10em;
+  padding-top:6em;
+  display: grid;
+  place-items: center;
+  padding-bottom: 2em;
 }
+h1{
+  padding: 2em;
+  color: #0b53c8;
+}
+legend{
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+}
+.gegevens{
+ 
+ 
+}
+
+
 
  /* footer */
  footer h2{
