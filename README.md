@@ -15,14 +15,14 @@ bruik)
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- 🌐 Live Versie
+🌐 Live Versie
 
 SAML wilt een campagne website voor de nieuwe testassistent.com app. Hierbij is er een vijf page's ontwikkelt met behulp van HTML, CSS & JS om deze weer te geven. -->
-<!-- (#ge![Screenshot (174)](https://user-images.githubusercontent.com/90189815/147141874-4647ac13-c97f-4f1f-a649-7f4cf13a7d1b.png)  -->
-<!--🌐https://yasser-slaymen.github.io/saml-zelftestapp-campaign-website-flow/-->
+ (#ge![Screenshot (174)](https://user-images.githubusercontent.com/90189815/147141874-4647ac13-c97f-4f1f-a649-7f4cf13a7d1b.png)  
+🌐https://yasser-slaymen.github.io/saml-zelftestapp-campaign-website-flow/-
 
 ## Kenmerken
-<!-- 🐸 Kenmerken
+🐸 Kenmerken
 Tools gebruikt:
 
 💻 Visual Studio Code
@@ -33,7 +33,7 @@ Code Skills:
 
 💀 HTML5
 🧍 CSS3
-⚽ JavaScript -->
+⚽ JavaScript
 
 ## Installatie
 
