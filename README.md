@@ -8,7 +8,8 @@
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
+  * [Gebruik](#ge![Screenshot (174)](https://user-images.githubusercontent.com/90189815/147141874-4647ac13-c97f-4f1f-a649-7f4cf13a7d1b.png)
+bruik)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
