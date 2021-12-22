@@ -6,7 +6,7 @@
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
-  * [Kenmerken![Screenshot (174)](https://user-images.githubusercontent.com/90189815/147144431-997f2c65-c600-4c90-88cd-9046daae9008.png)
+  *
 ](#kenmerken)
   * [Installatie](#installatie)
   * [Gebruik]
