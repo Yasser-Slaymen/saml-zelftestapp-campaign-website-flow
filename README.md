@@ -26,9 +26,13 @@ SAML wilt een campagne website voor de nieuwe testassistent.com app. Hierbij is 
 Tools gebruikt:
 
 💻 Visual Studio Code
+
 ✍️ Illustrator
+
 🖌pexels.com
+
 ✍️ Pen & Papier
+
 Code Skills:
 
 💀 HTML5
