@@ -95,6 +95,7 @@ body {
     height: 4em;
     margin-top: 0;
     background-color: var(--dark-blue);
+    z-index: 9999;
   }
 
   .nav-baar{
