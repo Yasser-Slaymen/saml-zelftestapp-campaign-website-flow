@@ -13,8 +13,7 @@ SAML wilt een campagne website voor de nieuwe testassistent.com app. Hierbij is 
 De pagina bestaat uit een hoofdpagina en via deze heeft u toegang tot vier secundaire pagina's, te weten contact, over ons, privacy en Instructie.  Er is een koptekst op de hoofdpagina en deze bevat het logo en de lijst met pagina's en het andere gedeelte van de hoofdpagina bestaat uit twee gedeelten, een eenvoudige uitleg over de toepassing en het tweede gedeelte bevat geanimeerde pictogrammen.  Door erop te klikken gaat u naar de rest van de pagina's en het laatste gedeelte van de pagina als footer, het bevat ook een logo en social media iconen.  De kop- en voettekst zijn objecten met dezelfde vorm en de informatie staat op een secundaire pagina
  
 
-## Kenmerken
-🐸 Kenmerken
+🐸## Kenmerken
 Tools gebruikt:
 
 💻 Visual Studio Code
